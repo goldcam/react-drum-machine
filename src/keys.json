@@ -1,0 +1,56 @@
+[
+    {
+      "keyCode": 81,
+      "soundClip": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/865931/openhat.wav",
+      "displayKey": "Q",
+      "displaySound": "openhat"
+    },
+    {
+      "keyCode": 87,
+      "soundClip": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/865931/boom.wav",
+      "displayKey": "W",
+      "displaySound": "boom"
+    },
+    {
+      "keyCode": 69,
+      "soundClip": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/865931/ride.wav",
+      "displayKey": "E",
+      "displaySound": "ride"
+    },
+    {
+      "keyCode": 65,
+      "soundClip": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/865931/clap.wav",
+      "displayKey": "A",
+      "displaySound": "clap"
+    },
+    {
+      "keyCode": 83,
+      "soundClip": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/865931/hihat.wav",
+      "displayKey": "S",
+      "displaySound": "hihat"
+    },
+    {
+      "keyCode": 68,
+      "soundClip": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/865931/kick.wav",
+      "displayKey": "D",
+      "displaySound": "kick"
+    },
+    {
+      "keyCode": 90,
+      "soundClip": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/865931/snare.wav",
+      "displayKey": "Z",
+      "displaySound": "snare"
+    },
+    {
+      "keyCode": 88,
+      "soundClip": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/865931/tom.wav",
+      "displayKey": "X",
+      "displaySound": "tom"
+    },
+    {
+      "keyCode": 67,
+      "soundClip": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/865931/tink.wav",
+      "displayKey": "C",
+      "displaySound": "tink"
+    }
+  ]
