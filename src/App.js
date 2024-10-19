@@ -1,8 +1,6 @@
 import './styles.scss';
-import Drum from './Drum';
-function App() {
-
-
+import  Drum from './Drum';
+const  App = () =>  {
   return (
     <div className="App" id='drum-machine'>
       <Drum />

@@ -1,27 +1,23 @@
 import React from "react";
 
-export class DrumPad extends React.Component{
-    
-    render(){
-      return (
+export const DrumPad = (props) => {
+    return (
         <div className="key" 
-             data-key={this.props.keyCode}>
-          <div class="drum-pad" 
-               id={this.props.displaySound}
-               onClick={this.props.clickPlaySound}
-               data-key={this.props.keyCode}
-               >
-            <audio data-key={this.props.keyCode}
-                   src={this.props.soundClip}
-                   class="clip"
-                   id={this.props.displayKey}>
-            </audio>
-                  {this.props.displayKey}
-          </div>
-          <div className="sound">{this.props.displaySound}</div>
+             data-key={props.keyCode}>
+            <div className="drum-pad" 
+                 id={props.displaySound}
+                 onClick={props.clickPlaySound}
+                 data-key={props.keyCode} >
+                <audio data-key={props.keyCode}
+                       src={props.soundClip}
+                       className="clip"
+                       id={props.displayKey}>
+                </audio>
+                 {props.displayKey}
+            </div>
+            <div className="sound">{props.displaySound}</div>
         </div>      
-      );
-    }
-  }
+    )
+}
 
   export default DrumPad;
