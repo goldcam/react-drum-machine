@@ -15,7 +15,7 @@ export const Drum = () => {
                 audio.currentTime = 0;
                 audio.play();
                 key.classList.add('playing');
-                key.addEventListener('transitionend', this.removeTransition);                
+                key.addEventListener('transitionend', removeTransition);                
                 setPlaying(e.target.id);
     };
     const removeTransition = (e) => {
